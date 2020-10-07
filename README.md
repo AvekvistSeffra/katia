@@ -1,6 +1,10 @@
 # Katia
-Katia [KAT-ee-ah] is an application to implement most things that are good about [Roll20](https://roll20.net) as well as [DnDBeyond](https://dndbeyond.com) but also improve on their ideas. 
+Katia [ kæti:a ] is an application to implement most things that are good about [Roll20](https://roll20.net) as well as [DnDBeyond](https://dndbeyond.com) but also improve on their ideas. 
 The project is open source so anyone is free to edit and do what they want with it, just follow the license and I'm happy. 
+
+## Running
+The idea is that when the project is far along, it will support executables and will exist under [releases](https://github.com/AvekvistSeffra/katia/releases). 
+The project is currently in too early development to support any executables. 
 
 ## Features
 It's best to check under [projects](https://github.com/AvekvistSeffra/katia/projects) to see the planned features and the [wiki](https://github.com/AvekvistSeffra/katia/wiki) to see the existing features. 
