@@ -1,31 +1,26 @@
+'''
+Aim to build a client that sends and receives messages from the server.
+The idea is to make an RPG chat game where you face monsters, nothing hard. 
+Just a way to practice chatting. 
+
+Will later extend to chatting with other clients, too. 
+'''
+
 import asyncio
 import websockets
-import socket
 
-debug = True
-
-async def hello(uri, name):
-    async with websockets.connect(uri) as websocket:
-        await websocket.send(name)
-        print(await websocket.recv())
+async def produce(message: str, host: str, port: str) -> None:
+    async with websockets.connect(f"ws://{host}:{port}") as ws:
+        await ws.send(message)
+        print(await ws.recv())
 
 def main():
-    if debug:
-        ip = socket.gethostbyname(socket.gethostname())
-        port = 8765
-    else:
-        ip = input("Enter an IP Address: ")
-        port = input("Enter a port number: ")
-
-    uri = "ws://{}:{}".format(ip, port)
-
-    name = input("Enter your name: ")
-    call = hello(uri, name)
-    
     try:
-        asyncio.get_event_loop().run_until_complete(call)
+        asyncio.run(produce(message=input("Enter your name: "), host="localhost", port="4000"))
     except KeyboardInterrupt:
-        print("Byebye. ")
+        pass
+    except ConnectionRefusedError:
+        print("Couldn't connect to server. ")
 
 if __name__ == "__main__":
     main()
