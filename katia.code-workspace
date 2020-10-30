@@ -1,10 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "client"
+			"path": "app"
 		},
 		{
-			"path": "server"
+			"path": "docs"
+		},
+		{
+			"path": "LICENSE"
 		}
-	]
+	],
 }
