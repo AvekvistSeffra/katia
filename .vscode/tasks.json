@@ -9,7 +9,9 @@
                 "-F",
                 "app/main.py",
                 "--noconsole",
-                "--icon=images/katia_icon.ico"
+                "--icon=data/icon/katia.ico",
+                "--name",
+                "katia"
             ],
             "group": {
                 "kind": "build",
