@@ -1,0 +1,1843 @@
+{
+    "races": [
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+    ],
+    "spells": [
+        {
+            "name": "Acid Arrow",
+            "level": 2,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "90 feet",
+            "components": "V S M (Powdered rhubarb leaf and an adder's stomach)",
+            "duration": "Instantaneous",
+            "classes": [ "Wizard" ],
+            "description": "A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.",
+            "upcasting": "When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd."
+        },
+        {
+            "name": "Acid Splash",
+            "level": 0,
+            "school": "Conjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "60 feet",
+            "components": "V S",
+            "duration": "Instantaneous",
+            "classes": [ "Sorcerer", "Wizard" ],
+            "description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.",
+            "upcasting": ""
+        },
+        {
+            "name": "Aid",
+            "level": 2,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A tiny strip of white cloth)",
+            "duration": "8 hours",
+            "classes": [ "Cleric", "Paladin" ],
+            "description": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target’s hit point maximum and current hit points increase by 5 for the duration.",
+            "upcasting": "When you cast this spell using a spell slot of 3rd level or higher, a target’s hit points increase by an additional 5 for each slot level above 2nd."
+        },
+        {
+            "name": "Alarm",
+            "level": 1,
+            "school": "Abjuration",
+            "ritual": true,
+            "casting time": "1 minute",
+            "range": "30 feet",
+            "components": "V S M (a tiny bell and a piece of fine silver wire)",
+            "duration": "8 hours",
+            "classes": [ "Ranger", "Wizard" ],
+            "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet",
+            "upcasting": ""
+        },
+        {
+            "name": "Alter Self",
+            "level": 2,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self",
+            "components": "V S",
+            "duration": "Concentration, up to 1 hour",
+            "classes": [ "Sorcerer", "Wizard" ],
+            "description": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one. Aquatic Adaptation. You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed. Change Appearance. You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can’t appear as a creature of a different size than you, and your basic shape stays the same; if you’re bipedal, you can’t use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again. Natural Weapons. You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.",
+            "upcasting": ""
+        },
+        {
+            "name": "Animal Friendship",
+            "level": 1,
+            "school": "Enchantment",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A morsel of food)",
+            "duration": "24 hours",
+            "classes": [ "Bard", "Druid", "Ranger" ],
+            "description": "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast’s Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. If you or one of your companions harms the target, the spells ends.",
+            "upcasting": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st."
+        },
+        {
+            "name": "Animal Messenger",
+            "level": 2,
+            "school": "Enchantment",
+            "ritual": true,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A morsel of food)",
+            "duration": "24 hours",
+            "classes": [ "Bard", "Druid", "Ranger" ],
+            "description": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired dwarf wearing a pointed hat.” You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.",
+            "upcasting": "If you cast this spell using a spell slot of 3rd level or higher, the Duration of the spell increases by 48 hours for each slot level above 2nd."
+        },
+        {
+            "name": "Animal Shapes",
+            "level": 8,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S",
+            "duration": "Concentration, up to 24 hours",
+            "classes": [ "Druid" ],
+            "description": "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms. The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target’s game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak or cast spells. The target’s gear melds into the new form. The target can’t activate, wield, or otherwise benefit from any of its equipment.",
+            "upcasting": ""
+        },
+        {
+            "name": "Animate Dead",
+            "level": 3,
+            "school": "Necromancy",
+            "ritual": false,
+            "casting time": "1 minute",
+            "range": "10 feet",
+            "components": "V S M (A drop of blood, a piece of flesh, and a pinch of bone dust)",
+            "duration": "Instantaneous",
+            "classes": [ "Cleric", "Wizard" ],
+            "description": "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the GM has the creature’s game statistics). On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete. The creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.",
+            "upcasting": "When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional Undead creatures for each slot above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+        },
+        {
+            "name": "Animate Objects",
+            "level": 5,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "120 feet",
+            "components": "V S",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Bard", "Sorcerer", "Wizard" ],
+            "description": "Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can’t animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points. As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete. Animated Object Statistics Size HP AC Attack Str Dex Tiny 20 18 +8 to hit, 1d4 + 4 damage 4 18 Small 25 16 +6 to hit, 1d8 + 2 damage 6 14 Medium 40 13 +5 to hit, 2d6 + 1 damage 10 12 Large 50 10 +6 to hit, 2d10 + 2 damage 14 10 Huge 80 10 +8 to hit, 2d12 + 4 damage 18 6 An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The GM might rule that a specific object inflicts slashing or piercing damage based on its form.",
+            "upcasting": "If you cast this spell using a spell slot of 6th level or higher, you can animate two additional Objects for each slot level above 5th."
+        },
+        {
+            "name": "Antilife Shell",
+            "level": 5,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self (10-foot radius)",
+            "components": "V S",
+            "duration": "Concentration, up to 1 hour",
+            "classes": [ "Druid" ],
+            "description": "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration. The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier. If you move so that an affected creature is forced to pass through the barrier, the spell ends.",
+            "upcasting": ""
+        },
+        {
+            "name": "Antimagic Field",
+            "level": 8,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self (10-foot-radius sphere)",
+            "components": "V S M (A pinch of powdered iron or iron fillings)",
+            "duration": "Concentration, up to 1 hour",
+            "classes": [ "Cleric", "Wizard" ],
+            "description": "A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can’t be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you. Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can’t protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn’t function, but the time it spends suppressed counts against its duration. Targeted Effects. Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target. Areas of Magic. The area of another spell or magical effect, such as fireball, can’t extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough. Spells. Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it. Magic Items. The properties and powers of magic items are suppressed in the sphere. For example, a +1 longsword in the sphere functions as a nonmagical longsword. A magic weapon’s properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits. Magical Travel. Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spell, temporarily closes while in the sphere. Creatures and Objects. A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere. Dispel Magic. Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don’t nullify each other.",
+            "upcasting": ""
+        },
+        {
+            "name": "Antipathy Sympathy",
+            "level": 8,
+            "school": "Enchantment",
+            "ritual": false,
+            "casting time": "1 hour",
+            "range": "60 feet",
+            "components": "V S M (Either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect)",
+            "duration": "10 days",
+            "classes": [ "Druid", "Wizard" ],
+            "description": "This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura’s effect. Antipathy. The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can’t see the target. If the creature moves more than 60 feet from the target and can’t see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it. Sympathy. The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can’t willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below. Ending the Effect. If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spell is allowed another Wisdom saving throw every 24 hours while the spell persists. A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again.",
+            "upcasting": ""
+        },
+        {
+            "name": "Arcane Eye",
+            "level": 4,
+            "school": "Divination",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A bit of bat fur)",
+            "duration": "Concentration, up to 1 hour",
+            "classes": [ "Wizard" ],
+            "description": "You create an invisible, magical eye within range that hovers in the air for the duration. You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction. As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+            "upcasting": ""
+        },
+        {
+            "name": "Arcane Hand",
+            "level": 5,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "120 feet",
+            "components": "V S M (An eggshell and a snakeskin glove)",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Wizard" ],
+            "description": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell’s duration, and it moves at your command, mimicking the movements of your own hand. The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn’t fill its space. When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it. Clenched Fist. The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage. Forceful Hand. The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand’s Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it. Grasping Hand. The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand’s Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier. Interposing Hand. The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can’t move through the hand’s space if its Strength score is less than or equal to the hand’s Strength score. If its Strength score is higher than the hand’s Strength score, the target can move toward you through the hand’s space, but that space is difficult terrain for the target.",
+            "upcasting": "When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th."
+        },
+        {
+            "name": "Arcane Lock",
+            "level": 2,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Touch",
+            "components": "V S M (Gold dust worth at least 25gp, which the spell consumes)",
+            "duration": "Until dispelled",
+            "classes": [ "Wizard" ],
+            "description": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes. While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
+            "upcasting": ""
+        },
+        {
+            "name": "Arcane Sword",
+            "level": 7,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "60 feet",
+            "components": "V S M (A miniature platinum sword with a grip and pommel of copper and zinc, worth 250gp)",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Bard", "Wizard" ],
+            "description": "You create a sword-shaped plane of force that hovers within range. It lasts for the duration. When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.",
+            "upcasting": ""
+        },
+        {
+            "name": "Arcanist's Magic Aura",
+            "level": 2,
+            "school": "Illusion",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Touch",
+            "components": "V S M (A small square of silk)",
+            "duration": "24 hours",
+            "classes": [ "Wizard" ],
+            "description": "You place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isn’t being carried or worn by another creature. When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled. False Aura. You change the way the target appears to spells and magical effects, such as detect magic, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object’s magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item. Mask. You change the way the target appears to spells and magical effects that detect creature types, such as a paladin’s Divine Sense or the trigger of a symbol spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.",
+            "upcasting": ""
+        },
+        {
+            "name": "Astral Projection",
+            "level": 9,
+            "school": "Necromancy",
+            "ritual": false,
+            "casting time": "1 hour",
+            "range": "10 feet",
+            "components": "V S M (For each creature you affect with this spell, you must provide on jacinth worth at least 1000gp and one ornately carved bar of silver worth at least 100gp, all of which the spell consumes)",
+            "duration": "Special",
+            "classes": [ "Cleric", "Warlock", "Wizard" ],
+            "description": "You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is unconscious and in a state of suspended animation; it doesn’t need food or air and doesn’t age. Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut—something that can happen only when an effect specifically states that it does—your soul and body are separated, killing you instantly. Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it. The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens. The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creature’s original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature’s astral form back to its body, ending its state of suspended animation. If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.",
+            "upcasting": ""
+        },
+        {
+            "name": "Augury",
+            "level": 2,
+            "school": "Divination",
+            "ritual": true,
+            "casting time": "1 minute",
+            "range": "Self",
+            "components": "V S M (Specially marked sticks, bones, or similar tokens worth at least 25gp)",
+            "duration": "Instantaneous",
+            "classes": [ "Cleric" ],
+            "description": "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The GM chooses from the following possible omens: Weal, for good results Woe, for bad results Weal and woe, for both good and bad results Nothing, for results that aren’t especially good or bad The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.",
+            "upcasting": ""
+        },
+        {
+            "name": "Awaken",
+            "level": 5,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "8 hours",
+            "range": "Touch",
+            "components": "V S M (An agate worth at least 1000gp, which the spell consumes)",
+            "duration": "Instantaneous",
+            "classes": [ "Bard", "Druid" ],
+            "description": "After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. Your GM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree. The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.",
+            "upcasting": ""
+        },
+        {
+            "name": "Bane",
+            "level": 1,
+            "school": "Enchantment",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A drop of blood)",
+            "duration": "Concentraion, up to 1 minute",
+            "classes": [ "Bard", "Cleric" ],
+            "description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+            "upcasting": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+        },
+        {
+            "name": "Banishment",
+            "level": 4,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "60 feet",
+            "components": "V S M (An item distasteful to the target)",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Paladin", "Cleric", "Sorcerer", "Warlock", "Wizard" ],
+            "description": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a Charisma saving throw or be banished. If the target is native to the plane of existence you’re on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence than the one you’re on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn’t return.",
+            "upcasting": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+        },
+        {
+            "name": "Barkskin",
+            "level": 2,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Touch",
+            "components": "V S M (A handful of oak bark)",
+            "duration": "Concentration, up to 1 hour",
+            "classes": [ "Druid", "Ranger" ],
+            "description": "You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing.",
+            "upcasting": ""
+        },
+        {
+            "name": "Beacon of Hope",
+            "level": 3,
+            "school": "Abjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Cleric" ],
+            "description": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+            "upcasting": ""
+        },
+        {
+            "name": "Bestow Curse",
+            "level": 3,
+            "school": "Necromancy",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Touch",
+            "components": "V S",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Bard", "Cleric", "Wizard" ],
+            "description": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options: Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score. While cursed, the target has disadvantage on attack rolls against you. While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing. While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target. A remove curse spell ends this effect. At the GM’s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse’s effect.",
+            "upcasting": "If you cast this spell using a spell slot of 4th level or higher, the Duration is Concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the Duration is 8 hours. If you use a spell slot of 7th level or higher, the Duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a Duration that doesn't require Concentration."
+        },
+        {
+            "name": "Black Tentacles",
+            "level": 4,
+            "school": "Conjuration",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "90 feet",
+            "components": "V S M (A piece of tentacle from a giant octopus or a giant squid",
+            "duration": "Concentration, up to 10 minutes",
+            "classes": [ "Wizard" ],
+            "description": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage. A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.",
+            "upcasting": ""
+        },
+        {
+            "name": "Blade Barrier",
+            "level": 6,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "90 feet",
+            "components": "V S",
+            "duration": "Concentration, up to 10 minutes",
+            "classes": [ "Cleric" ],
+            "description": "You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain. When a creature enters the wall’s area for the first time on a turn or starts its turn there, the creature must make a Dexterity saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature takes half as much damage.",
+            "upcasting": ""
+        },
+        {
+            "name": "Bless",
+            "level": 1,
+            "school": "Enchantment",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S M (A sprinkling of holy water)",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Cleric", "Paladin" ],
+            "description": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.",
+            "upcasting": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+        },
+        {
+            "name": "Blight",
+            "level": 4,
+            "school": "Necromancy",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V S",
+            "duration": "Instantaneous",
+            "classes": [ "Druid", "Sorcerer", "Warlock", "Wizard" ],
+            "description": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it. If you target a nonmagical plant that isn’t a creature, such as a tree or shrub, it doesn’t make a saving throw; it simply withers and dies.",
+            "upcasting": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th."
+        },
+        {
+            "name": "Blindness Deafness",
+            "level": 2,
+            "school": "Necromancy",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "30 feet",
+            "components": "V",
+            "duration": "1 minute",
+            "classes": [ "Bard", "Cleric", "Sorcerer", "Wizard" ],
+            "description": "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
+            "upcasting": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+        },
+        {
+            "name": "Blink",
+            "level": 3,
+            "school": "Transmutation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self",
+            "components": "V S",
+            "duration": "1 minute",
+            "classes": [ "Sorcerer", "Wizard" ],
+            "description": "Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action. While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can’t see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren’t there can’t perceive you or interact with you, unless they have the ability to do so.",
+            "upcasting": ""
+        },
+        {
+            "name": "Blur",
+            "level": 2,
+            "school": "Illusion",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self",
+            "components": "V",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Sorcerer", "Wizard" ],
+            "description": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn’t rely on sight, as with blindsight, or can see through illusions, as with truesight.",
+            "upcasting": ""
+        },
+        {
+            "name": "Branding Smite",
+            "level": 2,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 bonus action",
+            "range": "Self",
+            "components": "V",
+            "duration": "Concentration, up to 1 minute",
+            "classes": [ "Paladin" ],
+            "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.",
+            "upcasting": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd."
+        },
+        {
+            "name": "Burning Hands",
+            "level": 1,
+            "school": "Evocation",
+            "ritual": false,
+            "casting time": "1 action",
+            "range": "Self (15-foot cone)",
+            "components": "V S",
+            "duration": "Instantaneous",
+            "classes": [ "Sorcerer", "Wizard" ],
+            "description": "As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+            "upcasting": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        },
+        {
+            "name": "",
+            "level": 0,
+            "school": "",
+            "ritual": false,
+            "casting time": "",
+            "range": "",
+            "components": "",
+            "duration": "",
+            "classes": [],
+            "description": "",
+            "upcasting": ""
+        }
+    ],
+    "items": [
+        {
+
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+    ],
+    "classes": [
+        {
+            "name": "Bard",
+            "hit points": [
+                {
+                    "hit dice": "1d8 per bard level"
+                },
+                {
+                    "hit points at 1st level": "8 + your Constitution modifier"
+                },
+                {
+                    "hit points at higher levels": "1d8 (or 5) + your Constitution modifier per bard level after 1st"
+                }
+            ],
+            "starting proficiencies": [
+                {
+                    "armor": "Light Armor"
+                },
+                {
+                    "weapons": [ "Simple weapons", "Hand crossbows", "Longswords", "Rapiers", "Shortswords" ]
+                },
+                {
+                    "tools": "Three Musical Instruments of your choice"
+                },
+                {
+                    "saving throws": [ "Dexterity", "Charisma" ]
+                },
+                {
+                    "skills": "Choose any three. "
+                }
+            ],
+            "starting equipment": [
+                "(a) a Rapier, (b) a Longsword, or (c) any simple weapon",
+                "(a) a Diplomat's Pack or (b) an Entertainer's Pack",
+                "(a) a lute or (b) any other musical instrument",
+                "Leather Armor, and a Dagger"
+            ],
+            "class-table": [
+                {
+                    "level": 1,
+                    "proficiency bonus": 2,
+                    "features": [ "Spellcasting", "Bardic Inspiration (d6)" ],
+                    "spells": {
+                        "known": 4,
+                        "levels": [ 2, 2, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 2,
+                    "proficiency bonus": 2,
+                    "features": [ "Jack of All Trades", "Song of Rest (d6)" ],
+                    "spells": {
+                        "known": 5,
+                        "levels": [ 2, 3, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 3,
+                    "proficiency bonus": 2,
+                    "features": [ "Bard College", "Expertise" ],
+                    "spells": {
+                        "known": 6,
+                        "levels": [ 2, 4, 2, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 4,
+                    "proficiency bonus": 2,
+                    "features": [ "Ability Score Improvement" ],
+                    "spells": {
+                        "known": 7,
+                        "levels": [ 3, 4, 3, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 5,
+                    "proficiency bonus": 3,
+                    "features": [ "Bardic Inspiration (d8)", "Font of Inspiration" ],
+                    "spells": {
+                        "known": 8,
+                        "levels": [ 3, 4, 3, 2, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 6,
+                    "proficiency bonus": 3,
+                    "features": [ "Countercharm", "Bard College Feature" ],
+                    "spells": {
+                        "known": 9,
+                        "levels": [ 3, 4, 3, 3, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 7,
+                    "proficiency bonus": 3,
+                    "features": [],
+                    "spells": {
+                        "known": 10,
+                        "levels": [ 3, 4, 3, 3, 1, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 8,
+                    "proficiency bonus": 3,
+                    "features": [ "Ability Score Improvement" ],
+                    "spells": {
+                        "known": 11,
+                        "levels": [ 3, 4, 3, 3, 2, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 9,
+                    "proficiency bonus": 4,
+                    "features": [ "Song of Rest (d8)" ],
+                    "spells": {
+                        "known": 12,
+                        "levels": [ 3, 4, 3, 3, 3, 1, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 10,
+                    "proficiency bonus": 4,
+                    "features": [ "Bardic Inspiration (d10)", "Expertise", "Magical Secrets" ],
+                    "spells": {
+                        "known": 14,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 11,
+                    "proficiency bonus": 4,
+                    "features": [],
+                    "spells": {
+                        "known": 15,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 12,
+                    "proficiency bonus": 4,
+                    "features": [ "Ability Score Improvement" ],
+                    "spells": {
+                        "known": 15,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 13,
+                    "proficiency bonus": 5,
+                    "features": [ "Song of Rest (d10)" ],
+                    "spells": {
+                        "known": 16,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 1, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 14,
+                    "proficiency bonus": 5,
+                    "features": [ "Magical Secrets", "Bard College Feature" ],
+                    "spells": {
+                        "known": 18,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 1, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 15,
+                    "proficiency bonus": 5,
+                    "features": [ "Bardic Inspiration (d12)" ],
+                    "spells": {
+                        "known": 19,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 1, 1, 0 ]
+                    }
+                },
+                {
+                    "level": 16,
+                    "proficiency bonus": 5,
+                    "features": [ "Ability Score Improvement" ],
+                    "spells": {
+                        "known": 19,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 1, 1, 0 ]
+                    }
+                },
+                {
+                    "level": 17,
+                    "proficiency bonus": 6,
+                    "features": [ "Song of Rest (d12)" ],
+                    "spells": {
+                        "known": 20,
+                        "levels": [ 4, 4, 3, 3, 3, 2, 1, 1, 1, 1 ]
+                    }
+                },
+                {
+                    "level": 18,
+                    "proficiency bonus": 6,
+                    "features": [ "Magical Secrets" ],
+                    "spells": {
+                        "known": 22,
+                        "levels": [ 4, 4, 3, 3, 3, 3, 1, 1, 1, 1 ]
+                    }
+                },
+                {
+                    "level": 19,
+                    "proficiency bonus": 6,
+                    "features": [ "Ability Score Improvement" ],
+                    "spells": {
+                        "known": 22,
+                        "levels": [ 4, 4, 3, 3, 3, 3, 2, 1, 1, 1 ]
+                    }
+                },
+                {
+                    "level": 20,
+                    "proficiency bonus": 6,
+                    "features": [ "Superior Inspiration" ],
+                    "spells": {
+                        "known": 22,
+                        "levels": [ 4, 4, 3, 3, 3, 3, 2, 2, 1, 1 ]
+                    }
+                }
+            ],
+            "class-elements": [
+                {
+                    "name": "Bardic Inspiration",
+                    "description": "You can inspire others through stirring words or music. To do so, you use a Bonus Action on Your Turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls The D20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a Long Rest. Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th Level, a d10 at 10th level, and a d12 at 15th level.",
+                    "subsection": []
+                },
+                {
+                    "name": "Spellcasting",
+                    "description": "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your Spells are part of your vast repertoire, magic that you can tune to different situations.",
+                    "subsection": [
+                        {
+                            "name": "Cantrips",
+                            "description": "You know two Cantrips of your choice from the bard spell list. You learn additional bard Cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table."
+                        },
+                        {
+                            "name": "Spell Slots",
+                            "description": "The Bard table shows how many Spell Slots you have to cast your Spells of 1st level and higher. To cast one of these Spells, you must expend a slot of the spell's level or higher. You regain all expended Spell Slots when you finish a Long Rest. For example, if you know the 1st-level spell Cure Wounds and have a 1st-level and a 2nd-level spell slot available, you can cast Cure Wounds using either slot."
+                        },
+                        {
+                            "name": "Spells Known of 1st level and Higher",
+                            "description": "You know four 1st-level Spells of your choice from the bard spell list. The Spells Known column of the Bard table shows when you learn more Bard Spells of your choice. Each of these Spells must be of a level for which you have Spell Slots. For instance, when you reach 3rd Level in this class, you can learn one new spell of 1st or 2nd Level. Additionally, when you gain a level in this class, you can choose one of the Bard Spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have Spell Slots."
+                        },
+                        {
+                            "name": "Spellcasting Ability",
+                            "description": "Charisma is your Spellcasting Ability for your Bard Spells. Your magic comes from the heart and soul you pour into the Performance of your music or oration. You use your Charisma whenever a spell refers to your Spellcasting Ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when Making an Attack roll with one. Spell save DC = 8 + your Proficiency Bonus + your Charisma modifier Spell Attack modifier = your Proficiency Bonus + your Charisma modifier"
+                        },
+                        {
+                            "name": "Ritual Casting",
+                            "description": "You can cast any bard spell you know as a ritual if that spell has the ritual tag."
+                        },
+                        {
+                            "name": "Spellcasting Focus",
+                            "description": "You can use a musical instrument (see 'Equipment') as a Spellcasting focus for your Bard Spells."
+                        }
+                    ]
+                },
+                {
+                    "name": "Jack of All Trades",
+                    "description": "Starting at 2nd Level, you can add half your Proficiency Bonus, rounded down, to any ability check you make that doesn't already include your Proficiency Bonus.",
+                    "subsection": []
+                },
+                {
+                    "name": "Song of Rest",
+                    "description": "Beginning at 2nd Level, you can use soothing music or oration to help Revitalize your wounded allies during a Short Rest. If you or any friendly creatures who can hear your Performance regain Hit Points by spending Hit Dice at the end of the Short Rest, each of those creatures regains an extra 1d6 Hit Points. The extra Hit Points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.",
+                    "subsection": []
+                },
+                {
+                    "name": "Bard College",
+                    "description": "At 3rd Level, you delve into the advanced Techniques of a Bard College of your choice, such as the College of Lore. Your choice grants you features at 3rd Level and again at 6th and 14th level.",
+                    "subsection": [
+                        {
+                            "name": "College of Lore",
+                            "description": "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local Temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or Advisor knows that the bard would rather be honest than politic. The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
+                            "subsection": [
+                                {
+                                    "name": "Bonus Proficiencies",
+                                    "description": "When you join the College of Lore at 3rd Level, you gain proficiency with three Skills of your choice."
+                                },
+                                {
+                                    "name": "Cutting Words",
+                                    "description": "Also at 3rd Level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an Attack roll, an ability check, or a damage roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the Attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being Charmed."
+                                },
+                                {
+                                    "name": "Additional Magical Secrets",
+                                    "description": "At 6th level, you learn two Spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen Spells count as Bard Spells for you but don’t count against the number of Bard Spells you know."
+                                },
+                                {
+                                    "name": "Peerless Skill",
+                                    "description": "Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Expertise",
+                    "description": "At 3rd Level, choose two of your skill Proficiencies. Your Proficiency Bonus is doubled for any ability check you make that uses either of the chosen Proficiencies. At 10th level, you can choose another two skill Proficiencies to gain this benefit.",
+                    "subsection": []
+                },
+                {
+                    "name": "Ability Score Improvement",
+                    "description": "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                    "subsection": []
+                },
+                {
+                    "name": "Font of Inspiration",
+                    "description": "Beginning when you reach 5th Level, you regain all of your expended uses of Bardic Inspiration when you finish a short or Long Rest.",
+                    "subsection": []
+                },
+                {
+                    "name": "Countercharm",
+                    "description": "At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing Effects. As an action, you can start a Performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on Saving Throws against being Frightened or Charmed. A creature must be able to hear you to gain this benefit. The Performance ends early if you are Incapacitated or silenced or if you voluntarily end it (no action required).",
+                    "subsection": []
+                },
+                {
+                    "name": "Magical Secrets",
+                    "description": "By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two Spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen Spells count as Bard Spells for you and are included in the number in the Spells Known column of the Bard table. You learn two additional Spells from any class at 14th level and again at 18th level.",
+                    "subsection": []
+                },
+                {
+                    "name": "Superior Inspiration",
+                    "description": "At 20th level, when you roll Initiative and have no uses of Bardic Inspiration left, you regain one use.",
+                    "subsection": []
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "Hit Die",
+                    "value": "d8"
+                },
+                {
+                    "name": "Spellcasting Ability",
+                    "value": "Charisma"
+                },
+                {
+                    "name": "Starting Gold",
+                    "value": "5d4 x 10"
+                },
+                {
+                    "name": "Subclass Name",
+                    "value": "Bard College"
+                },
+                {
+                    "name": "Suggested Abilities",
+                    "value": "Charisma, Dexterity"
+                }
+            ]
+        },
+        {
+            "name": "Fighter",
+            "hit points": [
+                {
+                    "hit dice": "1d10 per fighter level"
+                },
+                {
+                    "hit points at 1st level": "10 + your Constitution modifier"
+                },
+                {
+                    "hit points at higher levels": "1d10 (or 6) + your Constitution modifier per Fighter level after 1st"
+                }
+            ],
+            "starting proficiencies": [
+                {
+                    "armor": [ "Light Armor", "Medium Armor", "Heavy Armor", "Shields" ]
+                },
+                {
+                    "weapons": [ "Simple Weapons", "Martial Weapons" ]
+                },
+                {
+                    "tools": []
+                },
+                {
+                    "saving throws": [ "Strength", "Constitution" ]
+                },
+                {
+                    "skills": "Choose two Skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival"
+                }
+            ],
+            "starting equipment": [
+                "(a) Chain Mail or (b) Leather Armor, Longbow, and 20 Arrows",
+                "(a) a martial weapon and a Shield or (b) two Martial Weapons",
+                "(a) a Light Crossbow and 20 bolts or (b) two handaxes",
+                "(a) a Dungeoneer's Pack or (b) an Explorer's Pack"
+            ],
+            "class-table": [
+                {
+                    "level": 1,
+                    "proficiency bonus": 2,
+                    "features": ["Fighting Style", "Second Wind"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 2,
+                    "proficiency bonus": 2,
+                    "features": ["Action Surge (one use)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 3,
+                    "proficiency bonus": 2,
+                    "features": ["Martial Archetype"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 4,
+                    "proficiency bonus": 2,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 5,
+                    "proficiency bonus": 3,
+                    "features": ["Extra Attack"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 6,
+                    "proficiency bonus": 3,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 7,
+                    "proficiency bonus": 3,
+                    "features": ["Martial Archetype"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 8,
+                    "proficiency bonus": 3,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 9,
+                    "proficiency bonus": 4,
+                    "features": ["Indomitable (one use)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 10,
+                    "proficiency bonus": 4,
+                    "features": ["Martial Archetype"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 11,
+                    "proficiency bonus": 4,
+                    "features": ["Extra Attack (2)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 12,
+                    "proficiency bonus": 4,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 13,
+                    "proficiency bonus": 5,
+                    "features": ["Indomitable (two uses)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 14,
+                    "proficiency bonus": 5,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 15,
+                    "proficiency bonus": 5,
+                    "features": ["Martial Archetype"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 16,
+                    "proficiency bonus": 5,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 17,
+                    "proficiency bonus": 6,
+                    "features": ["Action Surge (two uses)", "Indomitable (three uses)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 18,
+                    "proficiency bonus": 6,
+                    "features": ["Martial Archetype"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 19,
+                    "proficiency bonus": 6,
+                    "features": ["Ability Score Improvement"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 20,
+                    "proficiency bonus": 6,
+                    "features": ["Extra Attack (3)"],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                }
+            ],
+            "class-elements": [
+                {
+                    "name": "Fighting Style",
+                    "description": "You adopt a particular style of fighting as your specialty. Choose a Fighting Style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+                    "subsection": [
+						{
+                            "name": "Archery",
+                            "description": "You gain a +2 bonus to Attack rolls you make with Ranged Weapons."
+						},
+						{
+                            "name": "Defense",
+                            "description": "While you are wearing armor, you gain a +1 bonus to AC."
+						},
+						{
+                            "name": "Dueling",
+                            "description": "When you are wielding a melee weapon in one hand and no other Weapons, you gain a +2 bonus to Damage Rolls with that weapon."
+						},
+						{
+                            "name": "Great Weapon Fighting",
+                            "description": "When you roll a 1 or 2 on a damage die for an Attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit."
+						},
+						{
+                            "name": "Protection",
+                            "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your Reaction to impose disadvantage on the Attack roll. You must be wielding a Shield."
+						},
+						{
+                            "name": "Two-Weapon Fighting",
+                            "description": "When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage of the second Attack."
+						}
+					]
+                },
+                {
+                    "name": "Second Wind",
+                    "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On Your Turn, you can use a Bonus Action to regain Hit Points equal to 1d10 + your Fighter level. Once you use this feature, you must finish a short or Long Rest before you can use it again.",
+                    "subsection": []
+                },
+				{
+                    "name": "Action Surge",
+                    "description": "Starting at 2nd Level, you can push yourself beyond your normal limits for a moment. On Your Turn, you can take one additional action on top of your regular action and a possible Bonus Action. Once you use this feature, you must finish a short or Long Rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",
+                    "subsection": []
+                },
+				{
+                    "name": "Martial Archetype",
+                    "description": "At 3rd Level, you choose an archetype that you strive to emulate in your Combat styles and Techniques, such as Champion. The archetype you choose grants you features at 3rd Level and again at 7th, 10th, 15th, and 18th level.",
+                    "subsection": []
+                },
+				{
+                    "name": "Ability Score Improvement",
+                    "description": "When you reach 4th Level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                    "subsection": []
+                },
+				{
+                    "name": "Extra Attack",
+                    "description": "Beginning at 5th Level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.",
+                    "subsection": []
+                },
+				{
+                    "name": "Indomitable",
+                    "description": "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.",
+                    "subsection": []
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "Hit Die",
+                    "value": "d10"
+                },
+                {
+                    "name": "Spellcasting Ability",
+                    "value": "None"
+                },
+                {
+                    "name": "Starting Gold",
+                    "value": "5d4 x 10"
+                },
+                {
+                    "name": "Subclass Name",
+                    "value": "Martial Archetype"
+                },
+                {
+                    "name": "Suggested Abilities",
+                    "value": "Strength or Dexterity, Constitution or Intelligence"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "hit points": [
+                {
+                    "hit dice": ""
+                },
+                {
+                    "hit points at 1st level": ""
+                },
+                {
+                    "hit points at higher levels": ""
+                }
+            ],
+            "starting proficiencies": [
+                {
+                    "armor": ""
+                },
+                {
+                    "weapons": [ "", "", "", "", "" ]
+                },
+                {
+                    "tools": ""
+                },
+                {
+                    "saving throws": [ "", "" ]
+                },
+                {
+                    "skills": ""
+                }
+            ],
+            "starting equipment": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "class-table": [
+                {
+                    "level": 1,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 2,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 3,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 4,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 5,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 6,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 7,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 8,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 9,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 10,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 11,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 12,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 13,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 14,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 15,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 16,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 17,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 18,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 19,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                },
+                {
+                    "level": 20,
+                    "proficiency bonus": 0,
+                    "features": [],
+                    "spells": {
+                        "known": 0,
+                        "levels": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                    }
+                }
+            ],
+            "class-elements": [
+                {
+                    "name": "",
+                    "description": "",
+                    "subsection": []
+                },
+                {
+                    "name": "",
+                    "description": "",
+                    "subsection": []
+                }
+            ],
+            "attributes": [
+                {
+                    "name": "Hit Die",
+                    "value": ""
+                },
+                {
+                    "name": "Spellcasting Ability",
+                    "value": ""
+                },
+                {
+                    "name": "Starting Gold",
+                    "value": ""
+                },
+                {
+                    "name": "Subclass Name",
+                    "value": ""
+                },
+                {
+                    "name": "Suggested Abilities",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}
