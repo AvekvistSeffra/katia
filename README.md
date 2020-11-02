@@ -6,6 +6,9 @@ The project is open source so anyone is free to edit and do what they want with 
 The idea is that when the project is far along, it will support executables and will exist under [releases](https://github.com/AvekvistSeffra/katia/releases). 
 The project is currently in too early development to support any executables. 
 
+## Design document
+[Here's the design document](https://docs.google.com/document/d/1KlVVezcCHkTzJYkO9JySCSJf22bP--vwcjiCnBHresw/edit?usp=sharing)
+
 ## Features
 It's best to check under [projects](https://github.com/AvekvistSeffra/katia/projects) to see the planned features and the [wiki](https://github.com/AvekvistSeffra/katia/wiki) to see the existing features. 
 Everything will be updated as the project moves on but if there is a feature that isn't documented, feel free to write about it yourself. Every contribution is appreciated. 
