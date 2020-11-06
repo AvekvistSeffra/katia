@@ -1,5 +1,5 @@
 import pyglet
-import core.window as window
+import core.graphics.window as window
 
 if __name__ == "__main__":
     aw = window.AuthenticationWindow()

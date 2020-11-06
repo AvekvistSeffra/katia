@@ -1,14 +1,21 @@
+import core.log as log
 import pyglet
 import glooey
 import json
-import core.log as log
 import sys
+from widgets.authentication.content import AuthenticationContent
+import widgets.compendium as compendium
+import globalvars
 
 class AuthenticationWindow(pyglet.window.Window):
     def __init__(self):
         super().__init__(640, 480, "Katia Login", resizable=False)
 
         self.set_icon(pyglet.image.load("data/icon/katia.ico"))
+
+        self.gui = glooey.Gui(self)
+
+        self.gui.add(AuthenticationContent())
 
 class KatiaWindow(pyglet.window.Window):
     def __init__(self, width, height, title):
@@ -33,7 +40,7 @@ class KatiaWindow(pyglet.window.Window):
             with open(f"data/compendium/{file}.json") as f:
                 return json.loads(f.read())
         except FileNotFoundError:
-            self.logger.error(f"Could not find file '{file}.json' in 'data/compendium' folder. \nTry downloading one from GitHub or making your own. ")
+            self.logger.error(f"Could not find file '{file}.json' in 'data/compendium' folder. Try downloading one from GitHub or making your own. ")
             sys.exit(1)
 
     def get_gui(self):

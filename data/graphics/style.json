@@ -1,0 +1,11 @@
+{
+    "color_scheme": {
+        "background_color": "#ff0000",
+        "text_color": "#ff3300",
+        "button_text_color": "#ff33ff"
+    },
+    "fonts": {
+        "title": "Comic Sans MS",
+        "button": "Arial"
+    }
+}
