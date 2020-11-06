@@ -20,17 +20,20 @@ class Spell:
         self.upcasting = upcasting
         self.script = script
 
-obj = dict()
+classes = dict()
+spells = dict()
 
 logger = log.Log("Core", log.LogLevel.INFO, filepath="log.txt")
 
 try:
-    with open("data/compendium.json") as f:
-        obj = json.loads(f.read())
-    for spell in obj["spells"]:
+    with open("data/compendium/spells.json") as f:
+        spells = json.loads(f.read())
+    with open("data/compendium/classes.json") as f:
+        classes = json.loads(f.read())
+    for spell in spells:
         if spell["name"] != "":
             logger.trace(spell["name"])
-    for cls in obj["classes"]:
+    for cls in classes:
         if cls["name"] != "":
             logger.trace(cls["name"])
 except FileNotFoundError:
@@ -49,9 +52,9 @@ class WesnothLabel(glooey.Label):
     custom_color = "#b9ad86"
     custom_alignment = "center"
 
-label = WesnothLabel(obj["spells"][0]["name"])
+label = WesnothLabel(spells[0]["name"])
 
-button = glooey.Button(obj["spells"][1]["name"])
+button = glooey.Button(spells[1]["name"])
 button.push_handlers(on_click = lambda w: print(f"{w} clicked!"))
 
 vbox = glooey.VBox()
@@ -60,12 +63,13 @@ vbox.add(button)
 
 hbox = glooey.HBox()
 hbox.add(vbox)
-hbox.add(WesnothLabel(obj["classes"][0]["name"]))
+hbox.add(WesnothLabel(classes[0]["name"]))
 
 gui.add(hbox)
 
 @window.event
 def on_resize(width, height):
+    gui.resize()
     pass
 
 pyglet.app.run()
