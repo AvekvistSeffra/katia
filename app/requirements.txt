@@ -1,5 +1,0 @@
-websockets==8.1
-pyglet==1.5.8
-pyinstaller==4.0
-pipreqs==0.4.10
-glooey==0.3.4
