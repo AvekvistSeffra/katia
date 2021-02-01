@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"sprProne","path":"sprites/sprProne/sprProne.yy",},"order":0,},
     {"id":{"name":"objToken","path":"objects/objToken/objToken.yy",},"order":1,},
-    {"id":{"name":"rmConnect","path":"rooms/rmConnect/rmConnect.yy",},"order":0,},
+    {"id":{"name":"rmLogin","path":"rooms/rmLogin/rmLogin.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -18,7 +18,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmConnect","path":"rooms/rmConnect/rmConnect.yy",},},
+    {"roomId":{"name":"rmLogin","path":"rooms/rmLogin/rmLogin.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Tokens/Status Effects.yy","order":0,"resourceVersion":"1.0","name":"Status Effects","tags":[],"resourceType":"GMFolder",},
@@ -26,7 +26,6 @@
     {"folderPath":"folders/Compendium.yy","order":4,"resourceVersion":"1.0","name":"Compendium","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Character Builder.yy","order":5,"resourceVersion":"1.0","name":"Character Builder","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Character Sheet.yy","order":6,"resourceVersion":"1.0","name":"Character Sheet","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/NetPlay.yy","order":7,"resourceVersion":"1.0","name":"NetPlay","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

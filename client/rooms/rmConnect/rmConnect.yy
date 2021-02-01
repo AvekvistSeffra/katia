@@ -42,11 +42,11 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Katia",
-    "path": "Katia.yyp",
+    "name": "NetPlay",
+    "path": "folders/NetPlay.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rmLogin",
+  "name": "rmConnect",
   "tags": [],
   "resourceType": "GMRoom",
 }
