@@ -1,4 +1,4 @@
-/// @description Initialize the token
+/// @description Initialise the Token
 name = "";
 owner = noone;
 sprite = noone;
