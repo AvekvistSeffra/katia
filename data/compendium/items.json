@@ -1,14 +1,450 @@
-[
-    {
-        "name": "Ring of Frost"
+{
+    "weapons": {
+        "range": {
+            "common": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "uncommon": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "rare": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "very rare": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "artifact": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ]
+        },
+        "melee": {
+            "common": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "uncommon": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "rare": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "very rare": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ],
+            "artifact": [
+                {
+                    "name": "",
+                    "weight": 0,
+                    "description": ""
+                }
+            ]
+        }
     },
-    {
-        "name": "Sword of Shining"
+    "ammunition": {
+        "common": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "uncommon": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "very rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "legendary": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "artifact": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ]
     },
-    {
-        "name": "Bloop"
+    "potions": {
+        "common": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "uncommon": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "very rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "legendary": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "artifact": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ]
     },
-    {
-        "name": "Dadoop"
+    "consumables": {
+        "common": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "uncommon": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "very rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "legendary": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ],
+        "artifact": [
+            {
+                "name": "",
+                "weight": 0,
+                "description": ""
+            }
+        ]
+    },
+    "shields": {
+        "common": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ],
+        "uncommon": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ],
+        "rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ],
+        "very rare": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ],
+        "legendary": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ],
+        "artifact": [
+            {
+                "name": "",
+                "weight": 0,
+                "ac": 0,
+                "description": ""
+            }
+        ]
+    },
+    "armor": {
+        "common": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "uncommon": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "rare": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "very rare": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "legendary": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ],
+        "artifact": [
+            {
+                "light": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "medium": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "heavy": [
+                    {
+                        "name": "",
+                        "weight": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        ]
     }
-]
+}
